@@ -44,7 +44,11 @@
 	
 	<?php endif; ?>
 	
-<!-- 	<link rel="stylesheet" href= "<?php echo get_stylesheet_directory_uri(); ?>/css/custom.css"> -->
+	<link rel="stylesheet" href= "<?php echo get_stylesheet_directory_uri(); ?>/css/custom.css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,900' rel='stylesheet' type='text/css'>
+  	
+  	<link href='https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i' rel='stylesheet'>
 
 	<?php wp_head(); ?>   
 	     
