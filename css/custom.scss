@@ -11,13 +11,13 @@ body {
 }
 
 header.home_default_image {
-	background: url('../img/home_1.jpg') no-repeat;
+	background: url('../img/home_8.jpg') no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 header.page_default_image {
-	background: url('../img/home_1.jpg') no-repeat;
+	background: url('../img/home_8.jpg') no-repeat;
 	background-size: 100%;
 	background-attachment: fixed;
 }
@@ -94,6 +94,7 @@ header.header_page {
 			a:link,
 			a:visited {
 				font-family: 'Merriweather', serif;
+				line-height: 53px;
 			}
 		}
 	}
@@ -201,13 +202,13 @@ header.header_page {
 @media (min-width: 768px) and (max-width: 979px) {
 	
 	header.home_default_image {
-		background: url('../img/home_mobile_1.jpg') no-repeat;
+		background: url('../img/home_mobile_8.jpg') no-repeat;
 		background-size: 100%;
 		background-attachment: fixed;
 	}
 	
 	header.header_page.page_default_image {
-		background: url('../img/home_mobile_1.jpg') no-repeat;
+		background: url('../img/home_mobile_8.jpg') no-repeat;
 		background-size: 100%;
 		background-attachment: fixed;
 	}
@@ -229,13 +230,13 @@ header.header_page {
 @media (min-width: 480px) and (max-width: 767px) {
 	
 	header.home_default_image {
-		background: url('../img/home_mobile_1.jpg') no-repeat;
+		background: url('../img/home_mobile_8.jpg') no-repeat;
 		background-size: 100%;
 		background-attachment: fixed;
 	}
 	
 	header.header_page.page_default_image {
-		background: url('../img/home_mobile_1.jpg') no-repeat;
+		background: url('../img/home_mobile_8.jpg') no-repeat;
 		background-size: 100%;
 		background-attachment: fixed;
 	}
@@ -257,13 +258,13 @@ header.header_page {
 @media (min-width: 0px) and (max-width: 479px) {
 	
 	header.home_default_image {
-		background: url('../img/home_mobile_1.jpg') no-repeat;
+		background: url('../img/home_mobile_8.jpg') no-repeat;
 		background-size: 100%;
 		background-attachment: fixed;
 	}
 	
 	header.header_page.page_default_image {
-		background: url('../img/home_mobile_1.jpg') no-repeat;
+		background: url('../img/home_mobile_8.jpg') no-repeat;
 		background-size: 100%;
 		background-attachment: fixed;
 	}
