@@ -30,22 +30,6 @@
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- Stylesheets -->
-    
-	<link rel="stylesheet" href= "<?php echo get_template_directory_uri(); ?>/style.css">
-	
-	<link rel="stylesheet" href= "<?php echo get_template_directory_uri(); ?>/css/styles.css">
-	
-	<link rel="stylesheet" href= "<?php echo get_template_directory_uri(); ?>/fancybox/fancybox.css">
-	
-	<link rel="stylesheet" href= "<?php echo get_stylesheet_directory_uri(); ?>/css/colors.css">
-	
-	<link rel="stylesheet" href= "<?php echo get_stylesheet_directory_uri(); ?>/css/custom.css">
-	
-	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,900' rel='stylesheet' type='text/css'>
-  	
-  	<link href='https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i' rel='stylesheet'>
-
 	<?php wp_head(); ?>   
 	     
 </head>

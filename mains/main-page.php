@@ -478,6 +478,4 @@
 		get_template_part( 'sidebars/sidebar' , 'appointment' );
 	}
 						
-?>
-	
-	
+?>	
