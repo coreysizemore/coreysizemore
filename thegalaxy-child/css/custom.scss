@@ -1,8 +1,10 @@
-/**************************************************************/
-/******************    Custom Stylesheet    *******************/
-/*******************   by Corey Sizemore   ********************/
-/*******************     version 1.0       ********************/
-/**************************************************************/
+/* color variables */
+
+$colorone: #111111;
+$colortwo: #222222;
+$colorthree: #333333;
+
+/* end color variables */
 
 body {
 	font-family: 'Lato', sans-serif;
@@ -24,6 +26,28 @@ header.page_default_image {
 	background: url('../img/parallax.jpg') no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+}
+
+header {
+	#home_logo {
+		#logo_home {
+			.home_logo_text_wrapper {
+				h1 {
+					font-family: 'Merriweather', serif;
+				}
+			}
+		}
+	}
+}
+
+#pricing {
+	.pricing_item {
+		display: inline-block;
+		margin-bottom: 40px;
+		padding: 0px 40px 0px 0px;
+		vertical-align: top;
+		width: calc(33.33333332% - 40px);
+	}
 }
 
 .content {
@@ -223,6 +247,13 @@ header.header_page {
 		}
 	}
 	
+	#pricing {
+		.pricing_item {
+			padding: 0px 0px 0px 0px;
+			width: 100%;
+		}
+	}
+	
 }
 	
 @media (min-width: 480px) and (max-width: 767px) {
@@ -251,6 +282,13 @@ header.header_page {
 		}
 	}
 	
+	#pricing {
+		.pricing_item {
+			padding: 0px 0px 0px 0px;
+			width: 100%;
+		}
+	}
+	
 }
 	
 @media (min-width: 0px) and (max-width: 479px) {
@@ -276,6 +314,13 @@ header.header_page {
 		.work_wrapper {
 			height: 300px;
 			width: calc(100% - 10px);	
+		}
+	}
+	
+	#pricing {
+		.pricing_item {
+			padding: 0px 0px 0px 0px;
+			width: 100%;
 		}
 	}
 	
