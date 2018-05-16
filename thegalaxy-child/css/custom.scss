@@ -65,6 +65,7 @@ header {
 	}
 	
 	span.pricing_tagline {
+		display: block;
 		font-size: 24px;
 		font-weight: 400;
 		margin-bottom: 40px;
@@ -96,6 +97,36 @@ header {
 				float: left;
 				line-height: 45px;
 			}
+		}
+	}
+	
+	form#form5 {
+		label {
+			color: #2f5971;
+			display: block;
+			font-size: 18px;
+			margin-bottom: 10px;
+			
+			.choice__text {
+				color: #777;
+				font-size: 14px;
+			}
+			
+			&.choice {
+				display: inline-block;
+				margin-left: 10px;
+				margin-right: 20px;
+				margin-bottom: 20px;
+			}
+		}
+		
+		input[type="text"],
+		input[type="submit"] {
+			margin-bottom: 20px;
+		}
+		
+		div.hide {
+			display: none;
 		}
 	}
 }
