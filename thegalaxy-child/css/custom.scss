@@ -10,31 +10,36 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
-header.home_default_image {
+header {
 	background: url('../img/home_2.jpg') no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
-header.page_default_image {
-	background: url('../img/home_2.jpg') no-repeat;
-	background-size: 100%;
-	background-attachment: fixed;
-}
-
-.parallax.parallax_default_image {
+#parallax {
 	background: url('../img/parallax.jpg') no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
-header {
+header#header_home,
+header#header_home_mobile {
 	#home_logo {
-		#logo_home {
-			.home_logo_text_wrapper {
-				h1 {
-					font-family: 'Merriweather', serif;
-				}
+		.home_logo_text_wrapper,
+		#home_logo_text_wrapper {
+			margin-bottom: 30px;
+			
+			h1 {
+				color: #ffffff;
+				font-family: 'Merriweather', serif;
+				font-size: 42px;
+				margin-bottom: 10px;
+			}
+			
+			h2 {
+				color: #ffffff;
+				font-size: 20px;
+				font-weight: 400;
 			}
 		}
 	}
@@ -131,27 +136,13 @@ header {
 	}
 }
 
-header.header_page {
+header#header_page {
 	#page_title {
 		h1.heading {
 			font-family: 'Merriweather', serif;
 		}
 	}
 }
-
-#home_logo {
-	top: 70%;
-	
-	#logo_home {
-		h1 {
-			a:link,
-			a:visited {
-				font-family: 'Merriweather', serif;
-				line-height: 53px;
-			}
-		}
-	}
-}	
 
 /* portfolio */
 
@@ -208,7 +199,7 @@ header.header_page {
 					-ms-transition: all .15s linear;
 					transition: all .15s linear;
 					
-					.icon {
+					.fas {
 						display: block;
 						font-size: 14px;
 						margin-bottom: 10px;
@@ -254,13 +245,13 @@ header.header_page {
 	
 @media (min-width: 768px) and (max-width: 979px) {
 	
-	header.home_default_image {
+	header {
 		background: url('../img/home_mobile_2.jpg') no-repeat;
 		background-size: 100%;
 		background-attachment: fixed;
 	}
 	
-	header.header_page.page_default_image {
+	header {
 		background: url('../img/home_mobile_2.jpg') no-repeat;
 		background-size: 100%;
 		background-attachment: fixed;
@@ -289,13 +280,13 @@ header.header_page {
 	
 @media (min-width: 480px) and (max-width: 767px) {
 	
-	header.home_default_image {
+	header {
 		background: url('../img/home_mobile_2.jpg') no-repeat;
 		background-size: 100%;
 		background-attachment: fixed;
 	}
 	
-	header.header_page.page_default_image {
+	header {
 		background: url('../img/home_mobile_2.jpg') no-repeat;
 		background-size: 100%;
 		background-attachment: fixed;
@@ -324,13 +315,13 @@ header.header_page {
 	
 @media (min-width: 0px) and (max-width: 479px) {
 	
-	header.home_default_image {
+	header {
 		background: url('../img/home_mobile_2.jpg') no-repeat;
 		background-size: 100%;
 		background-attachment: fixed;
 	}
 	
-	header.header_page.page_default_image {
+	header {
 		background: url('../img/home_mobile_2.jpg') no-repeat;
 		background-size: 100%;
 		background-attachment: fixed;
