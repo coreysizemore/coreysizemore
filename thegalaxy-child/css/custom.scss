@@ -45,6 +45,14 @@ header#header_home_mobile {
 	}
 }
 
+header#header_page_mobile {
+	#page_title {
+		h1 {
+			font-family: 'Merriweather', serif;
+		}
+	}
+}
+
 #pricing {
 	.pricing_item {
 		display: inline-block;
