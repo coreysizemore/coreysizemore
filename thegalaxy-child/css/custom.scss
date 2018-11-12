@@ -113,33 +113,10 @@ header#header_page_mobile {
 		}
 	}
 	
-	form#form5 {
-		label {
-			color: #2f5971;
-			display: block;
-			font-size: 18px;
-			margin-bottom: 10px;
-			
-			.choice__text {
-				color: #777;
-				font-size: 14px;
-			}
-			
-			&.choice {
-				display: inline-block;
-				margin-left: 10px;
-				margin-right: 20px;
-				margin-bottom: 20px;
-			}
-		}
+	#wufoo-sf372tc0x7lbq8 {
 		
-		input[type="text"],
-		input[type="submit"] {
-			margin-bottom: 20px;
-		}
-		
-		div.hide {
-			display: none;
+		iframe {
+			height: 750px;	
 		}
 	}
 }
