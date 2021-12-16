@@ -764,6 +764,17 @@ footer {
 			color: $darkfont;
 		}
 	}
+	
+	#social_nav {
+		ul {
+			li {
+				a:link,
+				a:visited {
+					color: $darkfont;
+				}
+			}
+		}
+	}
 }
 
 
