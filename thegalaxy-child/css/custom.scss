@@ -17,6 +17,8 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+/* header / top bar area */
+
 #attention_bar_header {
 	.attention_bar_header_content {
 		h3 {
@@ -27,8 +29,6 @@ body {
 
 header {
 	background: $colorthree;
-	//background-size: cover;
-	//background-attachment: fixed;
 	
 	#nav_bar {
 		background: transparent;
@@ -265,11 +265,19 @@ header {
 	}
 }
 
+/* end header / top bar */
+
+/* parallax / testimonial area */
+
 #parallax {
 	background: url('../img/parallax.jpg') no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
+
+/* end parallax / testimonial area */
+
+/* main content area */
 
 #main {
 	background: $colorone;
@@ -309,6 +317,8 @@ header {
 		strong {
 			font-weight: 700;
 		}
+		
+		/* gravity forms styling */
 		
 		.gform_wrapper {
 			.gform_body {
@@ -414,6 +424,8 @@ header {
 				margin-bottom: 30px;
 			}
 		}
+		
+		/* end gravity forms styling */
 	}
 	
 	.home_page_wrapper {
@@ -461,6 +473,8 @@ header {
 	.home_page_wrapper.home_page_item_5 {
 		background-color: $colortwo;
 	}
+	
+	/* subscription element page */
 	
 	.subscription_wrapper {
 		padding: 100px 0px;
@@ -593,7 +607,11 @@ header {
 		}
 	}
 	
+	/* end subscription element page */
+	
 }
+
+/* end main content area */
 
 /* medical page */
 
@@ -735,8 +753,9 @@ header {
 	}
 }
 
+/* end medical page */
 
-// footer edits
+/* footer & copyright area */
 
 footer {
 	background: $colorone;
@@ -776,6 +795,8 @@ footer {
 		}
 	}
 }
+
+/* end footer & copyright area */
 
 
 
